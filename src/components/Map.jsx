@@ -1,7 +1,6 @@
-import React,{ useState, useRef } from 'react'
+import React,{ useState } from 'react'
 import MapGL, {GeolocateControl } from 'react-map-gl'
 import config from '../config'
-import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const TOKEN=config.REACT_APP_TOKEN
