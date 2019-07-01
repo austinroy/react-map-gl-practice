@@ -25,7 +25,7 @@ const Map = () => {
   
   return (
     <div style={{ margin: '0 auto'}}>
-      <h1 style={{textAlign: 'center', fontSize: '25px', fontWeight: 'bolder' }}>GeoLocator: Click To Find Your Location</h1>
+      <h1 style={{textAlign: 'center', fontSize: '25px', fontWeight: 'bolder' }}>GeoLocator: Click To Find Your Location or click <a href="/search">here</a> to search for a location</h1>
       <MapGL
         {...viewport}
         mapboxApiAccessToken={TOKEN}
