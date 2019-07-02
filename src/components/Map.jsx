@@ -29,12 +29,12 @@ const Map = () => {
       <MapGL
         {...viewport}
         mapboxApiAccessToken={TOKEN}
-        mapStyle="mapbox://styles/mapbox/dark-v8"
+        mapStyle="mapbox://styles/mapbox/streets-v9"
         onViewportChange={_onViewportChange}
       >
         <GeolocateControl
           style={geolocateStyle}
-          positionOptions={{enableHighAccuracy: false}}
+          positionOptions={{enableHighAccuracy: true}}
           trackUserLocation={true}
         />
       </MapGL>

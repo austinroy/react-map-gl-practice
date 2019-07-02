@@ -56,6 +56,7 @@ class SearchableMap extends Component {
           <MapGL 
             ref={this.mapRef}
             {...viewport}
+            mapStyle="mapbox://styles/mapbox/streets-v9"
             width="100%"
             height="90%"
             onViewportChange={this.handleViewportChange}
