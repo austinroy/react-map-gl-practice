@@ -11,7 +11,7 @@
     "react-map-gl": "^6.1.11",
     "react-map-gl-geocoder": "^2.0.5",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
